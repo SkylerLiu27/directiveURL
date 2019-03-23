@@ -1,0 +1,10 @@
+<form (ngSubmit)='onAddItem(f)' #f='ngForm'>
+  <label for="url">URL</label>
+  <input type="text" id="url" class="form-control" name='url' ngModel required>
+
+  <button class="btn btn-success" type="submit" [disabled]="!f.valid">Add</button>
+</form>
+
+<li *ngFor="let url of urlList">
+  key:{{localUrl}} {{url.id}},URL:{{url.url}}
+</li>
