@@ -1,16 +1,20 @@
-RedirectApp directiveURL.zip contains the whole project.
+*RedirectApp directiveURL.zip contains the whole project.
+
 This project was generated with Angular CLI version 7.3.0.
 
-Installing the whole project
-Run npm install to install node_module file
+*Installing the whole project
 
-Running project
-Run npm start to initialize and run the project Run port on "4200"
+Run 'npm install' to install node_module file
 
-Running unit tests
-Run ng test to execute the unit tests via Karma.
+*Running project
 
-complete
+Run 'npm start' to initialize and run the project Run port on "4200"
+
+*Running unit tests
+
+Run 'ng test' to execute the unit tests via Karma.
+
+*Completion
 Use LocalStorage to store the url and tinyUrl
 
 ues service to get and store data, use key, value pair to store (id : key; url : value)
